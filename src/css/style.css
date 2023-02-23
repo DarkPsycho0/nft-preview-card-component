@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+.container {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+.card {
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 20px;
+}
+.card .nft {
+    width: 350px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.card .nft:hover {
+    opacity: 0.5;
+}
+.card .titulo {
+    display: flex;
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.card .titulo:hover {
+    color: hsl(178, 100%, 50%);
+}
+.card .descricao {
+    max-width: 350px;
+    font-size: 20px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 20px;
+}
+.card .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .info .gap{
+    display: flex;
+    gap: 5px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.card .info .price {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+.card .info .time-left {
+    color: hsl(215, 51%, 70%);
+}
+hr {
+    border-color: hsl(215, 32%, 27%);
+    border-style: solid;
+    margin-bottom: 15px;
+}
+.card .owner {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.card .owner img {
+    width: 35px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+.card .owner p {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+.card .owner p a {
+    color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card .owner p a:hover {
+    color: hsl(178, 100%, 50%);
+}
