@@ -1,0 +1,12 @@
+@media(max-width:425px){
+    .card {
+        width: 320px;
+    }
+    .card .nft, .card .descricao {
+        width: 270px;
+    }
+    .image div {
+        height: 270px;
+        width: 270px;
+    }
+}

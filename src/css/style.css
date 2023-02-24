@@ -13,6 +13,12 @@
     padding: 25px;
     border-radius: 20px;
 }
+.card .nft {
+    width: 350px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
 .image {
     position: relative;
 }
@@ -36,20 +42,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.card .nft {
-    width: 350px;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-.card .nft:hover {
-    opacity: 0.5;
-}
 .card .titulo {
     display: flex;
     color: #ffffff;
     font-size: 24px;
-    margin: 30px 0;
+    margin: 20px 0;
     font-weight: 600;
     transition: 0.3s;
 }
