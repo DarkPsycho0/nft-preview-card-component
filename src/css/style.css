@@ -43,7 +43,7 @@
     transform: translate(-50%, -50%);
 }
 .card .titulo {
-    display: flex;
+    display: inline-block;
     color: #ffffff;
     font-size: 24px;
     margin: 20px 0;
