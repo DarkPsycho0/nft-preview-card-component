@@ -22,7 +22,7 @@ Users should be able to:
 <img src="./src/images/mobile-screenshot.png">
 
 ### link 🔗
-- Live Site URL: https://lkiryu.github.io/nft-preview-card/
+- Live Site URL: https://lkiryu.github.io/nft-preview-card-component/
 
 ### Built with 🛠️
 - HTML5
